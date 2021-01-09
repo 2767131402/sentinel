@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: springCloudSentinel
+  cloud:
+    sentinel:
+      transport:
+        dashboard: localhost:8080
+server:
+  port: 9000
